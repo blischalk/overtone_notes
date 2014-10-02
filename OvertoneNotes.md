@@ -283,3 +283,7 @@ lin, env-gen, osc is basic asdr synth.
 ### Saving Buffer to Disk
 
 	(buffer-save b "~/Desktop/bong.wav") 
+	
+### definst vs defsynth
+
+definst is higher level than defsynth.  definst automatically takes care of routing the output to l and r channels.  Instruments will automatically wrap the body of code given in an out ugen.
